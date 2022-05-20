@@ -1,2 +1,2 @@
 # webscraper
-gets content from website and saves results to file
+gets content from website and writes result to csv file
