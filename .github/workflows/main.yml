@@ -2,8 +2,8 @@ name: webscraper
 
 # set timer when script will run (4pm UTC)
 on:
-  schedule:
-    - cron:  '0 16 * * *'
+  push:
+    branches: main
 
 jobs: 
   autoscrape:
