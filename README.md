@@ -1,2 +1,2 @@
 # webscraper
-gets content from website and writes result to csv file
+scheduled scraper that gets content from website and writes results to csv file
