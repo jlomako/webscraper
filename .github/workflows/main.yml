@@ -1,9 +1,9 @@
 name: webscraper
 
-# set timer when script will run (5pm UTC)
+# set timer when script will run
 on:
   schedule:
-  - cron: 0 17 * * *
+  - cron: 0 15 * * *
 
 jobs: 
   autoscrape:
