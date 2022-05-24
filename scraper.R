@@ -34,7 +34,6 @@ mydata <- data.frame(mydata)
 # open csv file and add new row to dataframe
 all <- read.csv("data/data.csv")
 all <- rbind(all, mydata[1,])
-all
 
 # write to file
 write.csv(all, file = "data/data.csv", row.names = FALSE)
