@@ -1,5 +1,5 @@
-# mini-webscraper
-# gets menu and prices from website and save results to csv file in data folder
+# webscraper
+# gets content from website and saves results to csv file in data folder
 
 # packages:
 # install.packages("tidyverse")
