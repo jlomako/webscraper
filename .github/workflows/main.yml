@@ -1,9 +1,9 @@
 name: webscraper
 
-# control when script will run (12am)
+# control when script will run (12:00h)
 on:
-  push:
-    branches: main
+  schedule:
+    - cron:  '0 12 * * *'
 
 jobs: 
   autoscrape:
