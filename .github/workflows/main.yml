@@ -1,7 +1,7 @@
 name: webscraper
 
 # control when script will run (12am)
- on:
+on:
   push:
     branches: main
 
