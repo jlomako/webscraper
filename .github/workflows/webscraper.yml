@@ -2,15 +2,15 @@ name: webscraper
 # needs DESCRIPTION file
 
 # set timer when script will run 
-#on:
-#  schedule:
-#  - cron: 0 15 * * *
+on:
+  schedule:
+  - cron: 0 15 * * *
   
 # run script on push
-on:
-  push:
-    branches: 
-      - main
+#on:
+#  push:
+#    branches: 
+#      - main
 
 jobs:
   RScript:
