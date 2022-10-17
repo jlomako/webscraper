@@ -2,7 +2,6 @@
 # gets content from website and saves results to csv file in data folder
 
 library(rvest)
-library(lubridate)
 library(dplyr)
 library(tidyr)
 
