@@ -1,18 +1,16 @@
 name: NEW webscraper
 # needs DESCRIPTION file
-# no needs to declare dplyr as extra package
-# but ggplot2 needs to be declared?
 
-# set timer when script will run (17 utc = 1pm local time) or on push
-#on:
-#  schedule:
-#  - cron: 0 17 * * *
+# set timer when script will run 
+on:
+  schedule:
+  - cron: 0 17 * * *
   
 # run script on push
-on:
-  push:
-    branches: 
-      - main
+#on:
+#  push:
+#    branches: 
+#      - main
 
 jobs:
   RScript:
