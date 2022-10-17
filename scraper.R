@@ -21,7 +21,7 @@ mydata <- mydata %>%
   # transform to long format
   pivot_wider(names_from=menu, values_from=pricelist) %>%
   # add date
-  mutate(Date = today())
+  mutate(Date = Sys.Date())
 
 # write to csv
 write.table(mydata, "data/data.csv", append = T, row.names = F, col.names = F, sep = ",")
