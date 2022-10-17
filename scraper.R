@@ -14,7 +14,9 @@ mydata <- data.frame(
   pricelist = html %>% html_elements(".m-0") %>% html_text2()
 )
 
+# convert prices to numeric
 mydata$pricelist <- sub("\\$", "", mydata$pricelist)
+mydata$pricelist <- as.numeric(mydata$pricelist)
 
 # sort output
 mydata <- mydata %>%
