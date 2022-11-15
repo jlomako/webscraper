@@ -4,5 +4,7 @@
 * this bot uses cron job and runs on ubuntu
 * needs DESCRIPTION file to run setup-r-dependencies@v2 with extra packages: rvest, dplyr, tidyr
 * changed cron to run only once a week
+* update: Nov 2022: website changed - script not working any longer
+* action will be paused until i have time to re-write everything
 
 [![webscraper](https://github.com/jlomako/webscraper/actions/workflows/webscraper.yml/badge.svg)](https://github.com/jlomako/webscraper/actions/workflows/webscraper.yml)
